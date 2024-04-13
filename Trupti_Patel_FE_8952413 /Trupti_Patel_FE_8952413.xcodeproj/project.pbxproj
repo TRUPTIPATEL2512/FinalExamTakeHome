@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FAADA352BC74C8700FB8BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA342BC74C8700FB8BFB /* AppDelegate.swift */; };
+		4FAADA372BC74C8700FB8BFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA362BC74C8700FB8BFB /* SceneDelegate.swift */; };
+		4FAADA392BC74C8700FB8BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA382BC74C8700FB8BFB /* ViewController.swift */; };
+		4FAADA3C2BC74C8700FB8BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAADA3A2BC74C8700FB8BFB /* Main.storyboard */; };
+		4FAADA3F2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA3D2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodeld */; };
+		4FAADA412BC74C8800FB8BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAADA402BC74C8800FB8BFB /* Assets.xcassets */; };
+		4FAADA442BC74C8800FB8BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAADA422BC74C8800FB8BFB /* LaunchScreen.storyboard */; };
+		4FAADA5B2BC74DD600FB8BFB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA4D2BC74DD600FB8BFB /* Main.swift */; };
+		4FAADA5C2BC74DD600FB8BFB /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA4E2BC74DD600FB8BFB /* Map.swift */; };
+		4FAADA5E2BC74DD600FB8BFB /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA502BC74DD600FB8BFB /* Weather.swift */; };
+		4FAADA612BC74DD600FB8BFB /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA532BC74DD600FB8BFB /* History.swift */; };
+		4FAADA622BC74DD600FB8BFB /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA542BC74DD600FB8BFB /* News.swift */; };
+		4FAADA692BC74DE400FB8BFB /* DataSavingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA672BC74DE400FB8BFB /* DataSavingManager.swift */; };
+		4FAADA6A2BC74DE400FB8BFB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAADA682BC74DE400FB8BFB /* Utils.swift */; };
+		DE32C92D2BC7757D00024899 /* NewsDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32C9292BC7757D00024899 /* NewsDataTableViewCell.swift */; };
+		DE32C92E2BC7757D00024899 /* DirectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32C92A2BC7757D00024899 /* DirectionsTableViewCell.swift */; };
+		DE32C92F2BC7757D00024899 /* WeatherDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32C92B2BC7757D00024899 /* WeatherDetailTableViewCell.swift */; };
+		DE32C9302BC7757D00024899 /* DetailNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32C92C2BC7757D00024899 /* DetailNewsTableViewCell.swift */; };
+		DE32C9332BC7758F00024899 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32C9312BC7758F00024899 /* NewsModel.swift */; };
+		DE32C9342BC7758F00024899 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32C9322BC7758F00024899 /* WeatherModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FAADA312BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trupti_Patel_FE_8952413.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAADA342BC74C8700FB8BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FAADA362BC74C8700FB8BFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4FAADA382BC74C8700FB8BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FAADA3B2BC74C8700FB8BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FAADA3E2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trupti_Patel_FE_8952413.xcdatamodel; sourceTree = "<group>"; };
+		4FAADA402BC74C8800FB8BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FAADA432BC74C8800FB8BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FAADA452BC74C8800FB8BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAADA4D2BC74DD600FB8BFB /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		4FAADA4E2BC74DD600FB8BFB /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		4FAADA502BC74DD600FB8BFB /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		4FAADA532BC74DD600FB8BFB /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		4FAADA542BC74DD600FB8BFB /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		4FAADA672BC74DE400FB8BFB /* DataSavingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSavingManager.swift; sourceTree = "<group>"; };
+		4FAADA682BC74DE400FB8BFB /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DE32C9292BC7757D00024899 /* NewsDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDataTableViewCell.swift; sourceTree = "<group>"; };
+		DE32C92A2BC7757D00024899 /* DirectionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsTableViewCell.swift; sourceTree = "<group>"; };
+		DE32C92B2BC7757D00024899 /* WeatherDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetailTableViewCell.swift; sourceTree = "<group>"; };
+		DE32C92C2BC7757D00024899 /* DetailNewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNewsTableViewCell.swift; sourceTree = "<group>"; };
+		DE32C9312BC7758F00024899 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		DE32C9322BC7758F00024899 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FAADA2E2BC74C8700FB8BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FAADA282BC74C8700FB8BFB = {
+			isa = PBXGroup;
+			children = (
+				4FAADA332BC74C8700FB8BFB /* Trupti_Patel_FE_8952413 */,
+				4FAADA322BC74C8700FB8BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FAADA322BC74C8700FB8BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FAADA312BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FAADA332BC74C8700FB8BFB /* Trupti_Patel_FE_8952413 */ = {
+			isa = PBXGroup;
+			children = (
+				4FAADA712BC76AA100FB8BFB /* Viewcontroller */,
+				4FAADA3A2BC74C8700FB8BFB /* Main.storyboard */,
+				4FAADA402BC74C8800FB8BFB /* Assets.xcassets */,
+				4FAADA422BC74C8800FB8BFB /* LaunchScreen.storyboard */,
+				4FAADA452BC74C8800FB8BFB /* Info.plist */,
+				4FAADA3D2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodeld */,
+			);
+			path = Trupti_Patel_FE_8952413;
+			sourceTree = "<group>";
+		};
+		4FAADA712BC76AA100FB8BFB /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				DE32C9372BC775E600024899 /* Screens */,
+				DE32C9362BC775D600024899 /* Cells */,
+				DE32C9352BC775C700024899 /* Model */,
+				4FAADA342BC74C8700FB8BFB /* AppDelegate.swift */,
+				4FAADA362BC74C8700FB8BFB /* SceneDelegate.swift */,
+				4FAADA382BC74C8700FB8BFB /* ViewController.swift */,
+				4FAADA672BC74DE400FB8BFB /* DataSavingManager.swift */,
+				4FAADA682BC74DE400FB8BFB /* Utils.swift */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		DE32C9352BC775C700024899 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE32C9312BC7758F00024899 /* NewsModel.swift */,
+				DE32C9322BC7758F00024899 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE32C9362BC775D600024899 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE32C92C2BC7757D00024899 /* DetailNewsTableViewCell.swift */,
+				DE32C92A2BC7757D00024899 /* DirectionsTableViewCell.swift */,
+				DE32C9292BC7757D00024899 /* NewsDataTableViewCell.swift */,
+				DE32C92B2BC7757D00024899 /* WeatherDetailTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DE32C9372BC775E600024899 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4FAADA532BC74DD600FB8BFB /* History.swift */,
+				4FAADA4D2BC74DD600FB8BFB /* Main.swift */,
+				4FAADA4E2BC74DD600FB8BFB /* Map.swift */,
+				4FAADA542BC74DD600FB8BFB /* News.swift */,
+				4FAADA502BC74DD600FB8BFB /* Weather.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FAADA302BC74C8700FB8BFB /* Trupti_Patel_FE_8952413 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAADA482BC74C8800FB8BFB /* Build configuration list for PBXNativeTarget "Trupti_Patel_FE_8952413" */;
+			buildPhases = (
+				4FAADA2D2BC74C8700FB8BFB /* Sources */,
+				4FAADA2E2BC74C8700FB8BFB /* Frameworks */,
+				4FAADA2F2BC74C8700FB8BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trupti_Patel_FE_8952413;
+			productName = Trupti_Patel_FE_8952413;
+			productReference = 4FAADA312BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FAADA292BC74C8700FB8BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4FAADA302BC74C8700FB8BFB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4FAADA2C2BC74C8700FB8BFB /* Build configuration list for PBXProject "Trupti_Patel_FE_8952413" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FAADA282BC74C8700FB8BFB;
+			productRefGroup = 4FAADA322BC74C8700FB8BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FAADA302BC74C8700FB8BFB /* Trupti_Patel_FE_8952413 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FAADA2F2BC74C8700FB8BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAADA442BC74C8800FB8BFB /* LaunchScreen.storyboard in Resources */,
+				4FAADA412BC74C8800FB8BFB /* Assets.xcassets in Resources */,
+				4FAADA3C2BC74C8700FB8BFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FAADA2D2BC74C8700FB8BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE32C92D2BC7757D00024899 /* NewsDataTableViewCell.swift in Sources */,
+				DE32C9302BC7757D00024899 /* DetailNewsTableViewCell.swift in Sources */,
+				4FAADA5E2BC74DD600FB8BFB /* Weather.swift in Sources */,
+				4FAADA5B2BC74DD600FB8BFB /* Main.swift in Sources */,
+				4FAADA392BC74C8700FB8BFB /* ViewController.swift in Sources */,
+				4FAADA352BC74C8700FB8BFB /* AppDelegate.swift in Sources */,
+				4FAADA612BC74DD600FB8BFB /* History.swift in Sources */,
+				DE32C92F2BC7757D00024899 /* WeatherDetailTableViewCell.swift in Sources */,
+				DE32C9332BC7758F00024899 /* NewsModel.swift in Sources */,
+				4FAADA5C2BC74DD600FB8BFB /* Map.swift in Sources */,
+				4FAADA622BC74DD600FB8BFB /* News.swift in Sources */,
+				4FAADA6A2BC74DE400FB8BFB /* Utils.swift in Sources */,
+				4FAADA3F2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodeld in Sources */,
+				4FAADA372BC74C8700FB8BFB /* SceneDelegate.swift in Sources */,
+				DE32C9342BC7758F00024899 /* WeatherModel.swift in Sources */,
+				4FAADA692BC74DE400FB8BFB /* DataSavingManager.swift in Sources */,
+				DE32C92E2BC7757D00024899 /* DirectionsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FAADA3A2BC74C8700FB8BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAADA3B2BC74C8700FB8BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FAADA422BC74C8800FB8BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAADA432BC74C8800FB8BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FAADA462BC74C8800FB8BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FAADA472BC74C8800FB8BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FAADA492BC74C8800FB8BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trupti_Patel_FE_8952413/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.First.conestogac.Trupti-Patel-FE-8952413";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FAADA4A2BC74C8800FB8BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trupti_Patel_FE_8952413/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.First.conestogac.Trupti-Patel-FE-8952413";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FAADA2C2BC74C8700FB8BFB /* Build configuration list for PBXProject "Trupti_Patel_FE_8952413" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAADA462BC74C8800FB8BFB /* Debug */,
+				4FAADA472BC74C8800FB8BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAADA482BC74C8800FB8BFB /* Build configuration list for PBXNativeTarget "Trupti_Patel_FE_8952413" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAADA492BC74C8800FB8BFB /* Debug */,
+				4FAADA4A2BC74C8800FB8BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FAADA3D2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FAADA3E2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodel */,
+			);
+			currentVersion = 4FAADA3E2BC74C8700FB8BFB /* Trupti_Patel_FE_8952413.xcdatamodel */;
+			path = Trupti_Patel_FE_8952413.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FAADA292BC74C8700FB8BFB /* Project object */;
+}
